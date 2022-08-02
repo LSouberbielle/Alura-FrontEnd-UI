@@ -51,4 +51,32 @@
 
 .institucional__video {
     width: 100vw;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional__contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+        width: 375px;
+    }
+
+    .institucional__contacto-email {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .institucional__contacto-email{
+        display: inline-block;
+    }
+    .institucional__video{
+        width: 100%;
+    }
 }
