@@ -1,3 +1,5 @@
+Práctica con metodología Atomic Design // Practice with Atomic Design methodology
+
 # arquitectura-css
 curso de arquitectura de Alura. 
 
